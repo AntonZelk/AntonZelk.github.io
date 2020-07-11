@@ -1,0 +1,48 @@
+.menu {
+  position: fixed;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-image: url('../../img/header.png');
+  background-size: cover;
+  z-index: 999;
+}
+li {
+  list-style-type: none;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Merienda', cursive;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+  color: #ffffff;
+}
+.lol3 {
+  cursor: pointer;
+}
+.lol3:hover {
+  font-size: 22px;
+  color: rgb(193, 164, 202);
+}
+
+ul {
+  padding-inline-start: 0px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0;
+}
+.lol1,
+.lol2 {
+  width: 25%;
+}
+.link-menu {
+  text-decoration: none;
+  list-style-type: none;
+  color: #ffffff;
+  transition: all 0.2s ease;
+}
+.link-menu:hover {
+  font-size: 22px;
+  color: rgb(193, 164, 202);
+}

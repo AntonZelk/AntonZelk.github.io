@@ -1,0 +1,43 @@
+.elements {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 200px;
+}
+.imgJob {
+  width: 350px;
+  height: 300px;
+}
+.elem {
+  width: 350px;
+  height: 600px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 0 0 20px 20px;
+  border-color: #0000002f;
+}
+.teeext {
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  margin-top: 10px;
+  font-family: 'Merienda', cursive;
+}
+.price {
+  margin-top: 20px;
+}
+.priceNum {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.res {
+  color: #000000;
+  font-size: 18px;
+  margin-top: 60px;
+}
+.elem:hover {
+  border-color: #d11010bd;
+}
